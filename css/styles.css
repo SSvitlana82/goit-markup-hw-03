@@ -46,8 +46,12 @@ img {display: block;
     flex-shrink: 0;
 }
 
-.header-navig {background: #FFF; align-items: center;
-    display: flex;}
+.header-navig {
+    background: #FFF; 
+    align-items: center;
+    display: flex; 
+    padding: 24px 0;
+}
 
 .header-logo {
     color: #4D5AE5;
