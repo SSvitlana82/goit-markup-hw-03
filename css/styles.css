@@ -72,10 +72,14 @@ img {display: block;
 
 .header-menu-item {}
 
-.header-menu-link {color: #2E2F42; text-decoration: none; font-size: 16px;
+.header-menu-link {
+    color: #2E2F42; 
+    text-decoration: none; 
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em; gap: 40px;
+    letter-spacing: 0.02em; 
+    gap: 40px;
     padding: 24px 0;
 }
 
