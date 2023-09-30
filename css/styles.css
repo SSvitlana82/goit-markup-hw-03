@@ -36,9 +36,7 @@ img {display: block;
 
 .header {
     background: #FFF; 
-    border-bottom: 1px solid #e7e9fc;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc; padding-top: 24px; padding-bottom: 24px;
 }
 
 .header-container {
@@ -46,7 +44,6 @@ img {display: block;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    padding: 24px 0;
 }
 
 .header-navig {background: #FFF; align-items: center;
