@@ -72,22 +72,25 @@ img {display: block;
     letter-spacing: 0.02em; gap: 40px;}
 
 .header-menu-link:hover {color: #404BBF;}
-.header-menu-link:focus {
-    color: #404BBF;
-}
+.header-menu-link:focus {#404BBF;}
 
-.header-address {font-style: normal;}
+.header-address {margin-left: auto; font-style: normal;}
 
-.header-address-menu {background: #FFF;}
+.header-address-menu {background: #FFF; gap: 40px;
+    display: flex;}
 
 .header-address-item {}
 
 .header-address-link {color: #434455;
     line-height: 1.5;
-    letter-spacing: 0.02em; text-decoration: none;}
+    letter-spacing: 0.02em; text-decoration: none; font-style: normal; align-items: center;}
 
 .header-address-link:hover {color: #404BBF;}
 .header-address-link:focus {color: #404BBF;}
+
+
+
+/*HERO*/
 
 .hero {background: #2E2F42;}
 
