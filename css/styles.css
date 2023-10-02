@@ -54,7 +54,11 @@ img {display: block;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase; text-decoration: none; margin-right: 76px;
+    text-transform: uppercase; 
+    text-decoration: none; 
+    margin-right: 76px;
+    display: block;
+    padding: 24px 0;
     }
 
 .header-logo-studio {color: #2E2F42;}
@@ -98,6 +102,8 @@ img {display: block;
     line-height: 1.5;
     letter-spacing: 0.02em; 
     text-decoration: none;
+    display: block;
+    padding: 24px 0;
 }
 
 .header-address-link:hover {color: #404BBF;}
@@ -123,8 +129,15 @@ img {display: block;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em; cursor: pointer; border: none; display: block; min-width: 169px; height: 
-    56px; border-radius: 4px; padding: 16px 32px; margin: 0 auto; gap: 10px;
+    letter-spacing: 0.04em; 
+    cursor: pointer; 
+    border: none; 
+    display: block; 
+    min-width: 169px; 
+    height: 56px; 
+    border-radius: 4px; 
+    padding: 16px 32px; 
+    margin: 0 auto; 
 }
 
 .hero-btn:hover {
@@ -138,7 +151,8 @@ img {display: block;
 
 /*BENEFITS*/
 
-.benefits {padding: 120px 0;
+.benefits {
+    padding: 120px 0;
 }
 
 .visually-hidden {
@@ -154,10 +168,14 @@ img {display: block;
     overflow: hidden;
 }
 
-.benefits-list {display: flex;
-    gap: 24px;}
+.benefits-list {
+    display: flex;
+    gap: 24px;
+}
 
-.benefits-item {width: calc((100% - 72px) / 4);}
+.benefits-item {
+    width: calc((100% - 72px) / 4);
+}
 
 .benefits-subtitle {
     color: #2E2F42;
@@ -178,7 +196,10 @@ img {display: block;
 
 /* Our Team */
 
-.team {background: #F4F4FD; padding: 120px 0;}
+.team {
+    background: #F4F4FD; 
+    padding: 120px 0;
+}
 
 .team-title {
     color: #2E2F42;    
@@ -242,12 +263,10 @@ img {display: block;
 }
 
 .portfolio-list {
-    background: #FFF;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    border-radius: 0 0 4px 4px;
 }
 
 .portfolio-item {width: calc((100% - 48px) / 3);}
